@@ -1,0 +1,23 @@
+{
+  "name": "sfdc-doc-generator",
+  "version": "1.0.0",
+  "description": "Converts markdown files to HTML and syncs them to the Article__c object in Salesforce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cheyne Pierce",
+  "license": "Apache-2.0",
+  "bin": {
+    "generatedocs": "./index.js"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "jsforce": "^1.7.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "jsforce": "^1.7.1",
+    "markdown-it": "^8.3.1"
+  }
+}
