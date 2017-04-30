@@ -22,6 +22,9 @@ var articlesMap = {};
 var categories = [];
 var articles = [];
 
+var username = '';
+var password = '';
+
 conn.login(username, password).then(function(userinfo) {
     return getCategories();
 }).then(function(res) {
